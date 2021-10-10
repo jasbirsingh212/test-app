@@ -34,6 +34,7 @@ class App extends Component {
         if(name.toLowerCase().includes(value.toLowerCase())){
           return monster;
         }
+        return null ;
     })
     this.setState({ filterMonster, searchInput : value })
   };
